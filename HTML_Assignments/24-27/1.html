@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form method="post" action="test.py">
+      <div>
+        <label>Username</label>
+        <br />
+        <input type="text" required placeholder="write your name"  name="username" />
+      </div>
+      <hr />
+      <div>
+        <label>Password</label>
+        <br />
+        <input type="password" placeholder="write a hard password" name="password" />
+      </div>
+      <hr />
+      <div>
+        <label>Mobile Number</label>
+        <br />
+        <input type="number" placeholder=" +20100 (234) 123" name="mobile" />
+      </div>
+      <hr />
+      <div>
+        <label>Email</label>
+        <br />
+        <input type="email" required placeholder="ahfa@gmail.com"  name="email" />
+      </div>
+      <hr />
+      <div>
+        <label>Subject</label>
+        <br />
+        <input type="text" placeholder="Write about your Subject" name="subject" />
+      </div>
+      <hr />
+      <div>
+        <input type="number" hidden value="21435" name="hidden value" />
+      </div>
+      <input type="submit" value="Send Data" />
+      <input type="reset" value="Empty Form" />
+    </form>
+  </body>
+</html>
