@@ -1,0 +1,18 @@
+.element {
+  width: 400px;
+  background-color: #ddd;
+  padding: 10px;
+  margin: 30px;
+  border-left-style: solid;
+  border-left-width: 5px;
+  border-left-color: #E91E63;
+  outline: 10px solid #ddd;
+}
+
+.element-2 {
+  visibility: hidden;
+}
+
+.element-3 {
+  border-left-color:#009688;
+}
