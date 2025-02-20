@@ -1,0 +1,12 @@
+a {
+  display: block;
+  width: fit-content;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+  background-color: #009688 ;
+  padding: 10px 20px;
+  border-bottom: 5px solid #00514A;
+  margin: 50vh auto 0;
+  transform: translateY(-50%);
+}
