@@ -1,0 +1,19 @@
+div {
+  text-align: center;
+  font-size: 100px;
+}
+.open-sans {
+  font-family: 'open sans';
+  font-weight: 300;
+  font-style: italic;
+}
+
+.cairo {
+  font-family: 'cairo';
+  font-weight: 700;
+} 
+
+.jomhuria {
+  font-family: 'jomhuria';
+  font-weight: 400;
+}
