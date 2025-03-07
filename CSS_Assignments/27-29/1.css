@@ -1,0 +1,38 @@
+.parent {
+  width: 800px;
+  background-color: #eee;
+  margin: 250px auto;
+}
+
+.child {
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: #ddd;
+  padding: 15px 0;
+  font-weight: bold;
+  margin: auto;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.w-f {
+  width: calc((100% - 30px));
+}
+
+.w-50 {
+  width: calc((100% - 45px) / 2);
+}
+
+.w-33 {
+  width: calc((100% - 60px) / 3);
+}
+
+.w-25 {
+  width: calc((100% - 75px) / 4);
+  margin-bottom: 15px;
+}
+
+.clear {
+  clear: both;
+}
