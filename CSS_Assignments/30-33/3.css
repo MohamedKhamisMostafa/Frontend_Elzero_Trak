@@ -1,0 +1,36 @@
+.main {
+  width: 400px;
+  list-style: none;
+  margin: 20px auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main > li {
+  margin: 10px;
+  background-color: #eee;
+  padding: 10px;
+}
+
+.html li {
+  background-color: #fff;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.css li {
+  background-color: #fff;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.js li {
+  padding-left: 0;
+  list-style-position: inside;
+  background-color: #fff;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.js ul {
+  padding-left: 0;
+}
