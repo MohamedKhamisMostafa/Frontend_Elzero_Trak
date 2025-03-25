@@ -1,0 +1,21 @@
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  width: 350px;
+  padding: 10px;
+  margin: 20px auto;
+  background-color: #EFEFEF;
+  counter-increment: add-num ;
+  border-right: 5px solid #F44336;
+}
+
+p::before {
+  content: counter(add-num);
+  position: absolute;
+  padding: 10px 15px;
+  background-color: #F44336;
+  top: calc(50% - 19px);
+  right: 100%;
+  color: white;
+  font-weight: bold;
+}
